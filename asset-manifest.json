@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/food-app/static/css/main.0aaa7273.css",
+    "main.js": "/food-app/static/js/main.2feecaed.js",
+    "static/js/787.5dc0e2a0.chunk.js": "/food-app/static/js/787.5dc0e2a0.chunk.js",
+    "static/media/hero_pizza.png": "/food-app/static/media/hero_pizza.4de1c66aeff1a0ed6527.png",
+    "static/media/best_pizza_2.png": "/food-app/static/media/best_pizza_2.7b4b46f73b65096254c8.png",
+    "static/media/chef-bg.png": "/food-app/static/media/chef-bg.f2600224d017775697b7.png",
+    "static/media/promo_order_1.jpg": "/food-app/static/media/promo_order_1.32c5dd214be2cf60cbaa.jpg",
+    "static/media/promo_order_3.jpg": "/food-app/static/media/promo_order_3.4b9c30f3acb16dda03ca.jpg",
+    "static/media/promo_leaf_bg.png": "/food-app/static/media/promo_leaf_bg.3dee33834d5ec7192923.png",
+    "static/media/pizza_slide_1.png": "/food-app/static/media/pizza_slide_1.6d554aed24e5f624c48e.png",
+    "static/media/hero_shape_1.png": "/food-app/static/media/hero_shape_1.cab78810b161aa5b2cac.png",
+    "static/media/delivery_bike.png": "/food-app/static/media/delivery_bike.120956400b1e333631f9.png",
+    "static/media/shape_17.png": "/food-app/static/media/shape_17.a0520fd38f3897276cc2.png",
+    "static/media/shape_16.png": "/food-app/static/media/shape_16.a9fa7cd59a530be12cfd.png",
+    "static/media/shape_10.png": "/food-app/static/media/shape_10.3acc8ed82cc098f7f42d.png",
+    "static/media/shape_13.png": "/food-app/static/media/shape_13.d9f8f4e2882e0dbe2520.png",
+    "static/media/hero_shape_3.png": "/food-app/static/media/hero_shape_3.61f1fb33aa61c117ee51.png",
+    "static/media/menu_pattern3-min.png": "/food-app/static/media/menu_pattern3-min.04cbe59a0582b1e318c6.png",
+    "static/media/hero_shape_2.png": "/food-app/static/media/hero_shape_2.8b88bdd9370cf1f7c3c4.png",
+    "static/media/telephone.svg": "/food-app/static/media/telephone.80c90e200926f50f8a2ff0decc8ce167.svg",
+    "static/media/shape_12.png": "/food-app/static/media/shape_12.644602874fe5500c66c2.png",
+    "static/media/hero_shape_4.png": "/food-app/static/media/hero_shape_4.022935e2fb8ae2a957bf.png",
+    "index.html": "/food-app/index.html",
+    "main.0aaa7273.css.map": "/food-app/static/css/main.0aaa7273.css.map",
+    "main.2feecaed.js.map": "/food-app/static/js/main.2feecaed.js.map",
+    "787.5dc0e2a0.chunk.js.map": "/food-app/static/js/787.5dc0e2a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0aaa7273.css",
+    "static/js/main.2feecaed.js"
+  ]
+}
