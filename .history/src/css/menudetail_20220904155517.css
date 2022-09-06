@@ -1,0 +1,7 @@
+.activeMenu {
+    background-color: #f7b035;
+    color: aliceblue;
+}
+.menuCart:hover .cartButton {
+ display: block;
+}

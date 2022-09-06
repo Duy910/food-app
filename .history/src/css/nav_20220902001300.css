@@ -1,0 +1,5 @@
+.nav:hover .navUl  {
+    display: block;
+    transition: top linear 0.5;
+    
+}

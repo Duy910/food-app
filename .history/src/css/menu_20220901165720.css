@@ -1,0 +1,15 @@
+.menu:hover .menuA {
+    animation: cart ease-in-out 0.3s;
+    display: block;
+    
+}
+
+@keyframes cart {
+    from{
+        left: 0;
+    }
+    to {
+        left: 25%;
+    }
+    
+}

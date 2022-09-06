@@ -1,0 +1,13 @@
+.menu-a {
+    animation: cart;
+}
+
+@keyframes cart {
+    from{
+        left: 0;
+    }
+    to {
+        left: 25%;
+    }
+    
+}

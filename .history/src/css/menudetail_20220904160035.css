@@ -1,0 +1,16 @@
+.activeMenu {
+    background-color: #f7b035;
+    color: aliceblue;
+}
+.menuCart:hover .cartButton {
+ display: block;
+}
+
+@keyframes cartDetail {
+    from {
+        left: -110px
+    }
+    to {
+        left: 1;
+    }
+}

@@ -1,0 +1,5 @@
+.nav:hover .navUl  {
+    display: block;
+    transition: ease-in;
+    
+}

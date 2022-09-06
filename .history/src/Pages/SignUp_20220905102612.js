@@ -1,0 +1,19 @@
+import Nav from "../components/Nav";
+import logo from '../img/logo.png'
+function SignUp() {
+    return ( 
+        <div className="bg-[#fff8ef] min-h-screen ">
+            <Nav />
+            <div className="max-w-[1200px] m-auto ">
+                <div className="m-auto">
+                    <div>
+                        <img src={logo}/>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    );
+    }
+
+export default SignUp;
