@@ -5,7 +5,6 @@ import shape3 from '../img/hero_shape_3.png'
 import shape4 from '../img/hero_shape_4.png'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Routes, Route, Link, Outlet, BrowserRouter as Router } from 'react-router-dom'
 function Slider() {
     return ( 
         <div className='h-[800px] bg-slider bg-black bg-cover ' >

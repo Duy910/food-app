@@ -9,7 +9,7 @@ function Promo() {
              <img src={promo} className='absolute w-[20%] top-[57%] right-[41%] overflow-hidden'/>
             <div className="max-w-[1200px] h-full my-0 mx-auto grid grid-cols-2 ">
                
-                <div className=" col-span-1 h-[50%] mr-5 mt-[125px]  promo1 bg-cover bg-center bg-no-repeat rounded-[20px] relative hover:shadow-2xl">
+                <div className=" col-span-1 h-[50%] mr-5 mt-[125px]  promo1 bg-cover bg-center bg-no-repeat rounded-[20px] relative ">
                     <div className='text-white text-[30px] promo-font absolute top-[5%] right-[20%]'>
                         <h1>MEXICAN</h1>
                         <h1>GREEN</h1>
@@ -20,7 +20,7 @@ function Promo() {
                     <FontAwesomeIcon className='mr-[10px]' icon={faShoppingCart}/>Order Now</Link>
                 </div>
                 </div>
-                <div className=" col-span-1 h-[50%] ml-5 mt-[125px] promo2 bg-cover bg-center bg-no-repeat  rounded-[20px] relative hover:shadow-2xl">
+                <div className=" col-span-1 h-[50%] ml-5 mt-[125px] promo2 bg-cover bg-center bg-no-repeat  rounded-[20px] relative">
                     <div className='text-white text-[30px] promo-font absolute top-[5%] right-[20%]'>
                             <h1>MEXICAN</h1>
                             <h1>GREEN</h1>

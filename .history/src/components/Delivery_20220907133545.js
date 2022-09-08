@@ -8,7 +8,6 @@ import biker from '../img/delivery_bike.png'
 import phone from '../img/telephone.svg'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Routes, Route, Link, Outlet, BrowserRouter as Router } from 'react-router-dom'
 
 function Delivery() {
     return ( 

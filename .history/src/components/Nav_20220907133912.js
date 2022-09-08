@@ -22,15 +22,15 @@ function Nav() {
 
                                 
                                 <li ><Link to='/food-app ' className='mr-6 text-white hover:text-yellow-200' >PAGES</Link></li>
-                                <li ><Link to='/food-app ' className='mr-6 text-white hover:text-yellow-200' >SHOP</Link></li>
-                                <li ><Link to='/food-app ' className='mr-6 text-white hover:text-yellow-200' >NEWS</Link></li>
+                                <li ><Link to=' ' className='mr-6 text-white hover:text-yellow-200' >SHOP</Link></li>
+                                <li ><Link to=' ' className='mr-6 text-white hover:text-yellow-200' >NEWS</Link></li>
                             </ul>
                         </div>
                         <div>
                             <ul className='flex h-14 items-center hover:cursor-pointer hover:text-yellow-200'>
-                                <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><Link to='/food-app'><FontAwesomeIcon icon={faFacebook} /></Link></li>
-                                <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><Link to='/food-app'><FontAwesomeIcon icon={faInstagram} /></Link></li>
-                                <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><Link to='/food-app'><FontAwesomeIcon icon={faYoutube} /></Link></li>
+                                <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><a href=''><FontAwesomeIcon icon={faFacebook} /></a></li>
+                                <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><a href=''><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><a href=''><FontAwesomeIcon icon={faYoutube} /></a></li>
 
                                 <li className='text-white ml-24 hover:text-yellow-200'><Link to='/signin'>Sign in</Link></li>
                                 <li className='text-white ml-10 hover:text-yellow-200'><Link to='/signup'>Sign up</Link></li>

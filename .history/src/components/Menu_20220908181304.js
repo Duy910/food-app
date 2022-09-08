@@ -2,24 +2,25 @@ import '../css/menu.css'
 import pizza1 from '../img/pizza_slide_1.png'
 import section from '../img/section_delimiter.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDove, faEuroSign } from '@fortawesome/free-solid-svg-icons';
+import { faEuroSign } from '@fortawesome/free-solid-svg-icons';
 import { db } from "../firebase/firebase-config";
-import { collection, doc, getDocs } from "firebase/firestore";
+import { collection, getDocs } from "firebase/firestore";
 import { useEffect, useState } from "react";
 function Menu() {
-  const [products, setProducts] = useState([])
-  const productsCollectionRef = collection(db, "allProduct")
-  useEffect(() => {
-    const getProducts = async () => {
-        const data = await getDocs(productsCollectionRef)
-        setProducts(data.docs.map((doc) => ({
-            ...doc.data()
-        })))
-    }
-    getProducts()
-
-  },[])
-    
+    const [products, setProduct] = useState([])
+    const productsCollectionRef = collection(db, "allProduct")
+    useEffect(() => {
+        const getProducts = async () => {
+            const data = await getDocs(productsCollectionRef)
+            // console.log(data);
+            setProduct(data.docs.map((doc) => ({
+                ...doc.data(), id: doc.id
+            })))
+        }  
+        
+        getProducts()
+    }, [])
+    }, [])
     return (
         <div className="max-w-[1200px] my-0 mx-auto">
             <div className='text-center py-20'>
@@ -30,7 +31,7 @@ function Menu() {
             <div>
                 <div className='grid grid-cols-4 gap-4'>
                     {products.map((product, index) => {
-                        return <div key={index} className=' col-span-1 '>
+                        return <div className=' col-span-1 '>
                             <div className='text-center font-semibold p-10 border-2 rounded-[10px] hover:cursor-pointer hover:bg-[#fffbf1] hover:shadow-2xl mb-20 relative menu'>
                                 <div>
                                     <img src={product.img} className='mx-auto ' />

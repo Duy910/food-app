@@ -16,7 +16,6 @@ function Menu() {
             ...doc.data()
         })))
     }
-    getProducts()
 
   },[])
     
@@ -30,7 +29,7 @@ function Menu() {
             <div>
                 <div className='grid grid-cols-4 gap-4'>
                     {products.map((product, index) => {
-                        return <div key={index} className=' col-span-1 '>
+                        return <div className=' col-span-1 '>
                             <div className='text-center font-semibold p-10 border-2 rounded-[10px] hover:cursor-pointer hover:bg-[#fffbf1] hover:shadow-2xl mb-20 relative menu'>
                                 <div>
                                     <img src={product.img} className='mx-auto ' />
