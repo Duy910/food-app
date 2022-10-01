@@ -1,0 +1,5 @@
+.formGroup.invalid .formInput {
+    border-color: red;
+}
+
+

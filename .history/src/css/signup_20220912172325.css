@@ -1,0 +1,9 @@
+.formGroup.invalid .formInput {
+    border-color: red;
+}
+
+.formGroup .formMess {
+    color: #ccc;
+}
+
+

@@ -1,0 +1,16 @@
+.formGroup.invalid .formInput {
+    border-color: red;
+    margin: 0;
+    
+    
+}
+
+.formGroup.invalid .formMess {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+
