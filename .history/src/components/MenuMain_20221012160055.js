@@ -40,12 +40,10 @@ function MenuMain({ data }) {
     }
   
     const handleCartItems = () => {
-        const itemFilter = cart.filter((c, index) => {
-            return cart.indexOf(c) === index
-        })
+        
         dispatch({
             type: actionType.SET_CART_ITEMS,
-            cartItems: itemFilter
+            cartItems: cart
         })
         localStorage.setItem('items', JSON.stringify(cart))
     }
