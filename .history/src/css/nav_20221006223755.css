@@ -1,0 +1,102 @@
+.nav:hover .navUl  {
+    display: block;
+
+}
+.navUl {
+    animation: Fade ease-in-out 0.5s;
+}
+ @keyframes Fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+ }
+
+.imageUser:hover .optionUser {
+    display: block;
+    
+}
+
+.optionUser{
+    display: none;
+    transform-origin: calc(100% - 50%) top;
+    animation: user ease-in 0.25s; 
+    
+}
+.optionUser::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 30px;
+    left: 0;
+    top: -18px;
+    width: 100%;
+    
+}
+@keyframes user {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+.hide {
+    display: none;
+}
+
+
+.iconProduct:hover .listProduct {
+    display: block;
+}
+ .listProduct {
+    box-shadow: 0 1px 15px 0 rgb(0 0 0 / 20%);
+    transform-origin: calc(100% - 0%) top;
+    animation: user ease-in 0.25s; 
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    
+ }
+ .listProduct::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 30px;
+    left: 0;
+    top: -18px;
+    width: 100%;
+    
+    
+}
+.iconProduct::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 50px;
+    left: 0;
+    top: -18px;
+    width: 150% ;
+    z-index: 1;
+    
+}
+.imageUser::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 50px;
+    left: -14px;
+    top: 12px;
+    width: 150% ;
+    z-index: 1;
+    background-color: red;
+    
+    
+}
+.activeNav {
+    color: #fee469;
+}
