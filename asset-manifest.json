@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/food-app/static/css/main.a3cfdaaa.css",
-    "main.js": "/food-app/static/js/main.835dc46a.js",
+    "main.css": "/food-app/static/css/main.c2d3f479.css",
+    "main.js": "/food-app/static/js/main.12c52ed8.js",
     "static/js/787.5dc0e2a0.chunk.js": "/food-app/static/js/787.5dc0e2a0.chunk.js",
     "static/media/hero_pizza.png": "/food-app/static/media/hero_pizza.4de1c66aeff1a0ed6527.png",
     "static/media/best_pizza_2.png": "/food-app/static/media/best_pizza_2.7b4b46f73b65096254c8.png",
+    "static/media/pizza_slide_4.png": "/food-app/static/media/pizza_slide_4.ce77f78d414a98fcfe34.png",
+    "static/media/pizza1.png": "/food-app/static/media/pizza1.007088e2564dfd8e2f90.png",
+    "static/media/pizza2.png": "/food-app/static/media/pizza2.e3c78167891574dd35f9.png",
     "static/media/chef-bg.png": "/food-app/static/media/chef-bg.f2600224d017775697b7.png",
     "static/media/promo_order_1.jpg": "/food-app/static/media/promo_order_1.32c5dd214be2cf60cbaa.jpg",
     "static/media/promo_order_3.jpg": "/food-app/static/media/promo_order_3.4b9c30f3acb16dda03ca.jpg",
@@ -27,13 +30,14 @@
     "static/media/login.png": "/food-app/static/media/login.c18e6e0a212b1f40686c.png",
     "static/media/shape_12.png": "/food-app/static/media/shape_12.644602874fe5500c66c2.png",
     "static/media/hero_shape_4.png": "/food-app/static/media/hero_shape_4.022935e2fb8ae2a957bf.png",
+    "static/media/emptyCart.svg": "/food-app/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
     "index.html": "/food-app/index.html",
-    "main.a3cfdaaa.css.map": "/food-app/static/css/main.a3cfdaaa.css.map",
-    "main.835dc46a.js.map": "/food-app/static/js/main.835dc46a.js.map",
+    "main.c2d3f479.css.map": "/food-app/static/css/main.c2d3f479.css.map",
+    "main.12c52ed8.js.map": "/food-app/static/js/main.12c52ed8.js.map",
     "787.5dc0e2a0.chunk.js.map": "/food-app/static/js/787.5dc0e2a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3cfdaaa.css",
-    "static/js/main.835dc46a.js"
+    "static/css/main.c2d3f479.css",
+    "static/js/main.12c52ed8.js"
   ]
 }
