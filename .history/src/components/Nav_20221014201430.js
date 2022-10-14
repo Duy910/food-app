@@ -90,9 +90,9 @@ function Nav() {
                     <div className=''>
                         <ul className='h-14 items-center hover:cursor-pointer relative flex ' >
                             <li>
-                                <Link to='/food-app'> <img src={logo} className="h-9 mr-10 " /></Link>
+                                <Link to='/'> <img src={logo} className="h-9 mr-10 " /></Link>
                             </li>
-                            <li ><Link to='/food-app'
+                            <li ><Link to='/'
 
                                 className='mr-6 text-white hover:text-yellow-200 tabNav' >HOME</Link></li>
                             <li className='relative nav'>
@@ -104,10 +104,10 @@ function Nav() {
                             <li ><Link to='/cart '
 
                                 className='mr-6 text-white hover:text-yellow-200' >CART</Link></li>
-                            <li ><Link to='/food-app '
+                            <li ><Link to='/ '
 
                                 className='mr-6 text-white hover:text-yellow-200' >PAGES</Link></li>
-                            <li ><Link to='/food-app '
+                            <li ><Link to='/ '
 
                                 className='mr-6 text-white hover:text-yellow-200' >SHOP</Link></li>
 
@@ -116,9 +116,9 @@ function Nav() {
                     <div className=''>
 
                         <ul className='flex h-14 items-center hover:cursor-pointer  '>
-                            {/* <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><Link to='/food-app'><FontAwesomeIcon icon={faFacebook} /></Link></li>
-                            <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><Link to='/food-app'><FontAwesomeIcon icon={faInstagram} /></Link></li>
-                            <li className='text-2xl ml-6 mr-6 text-white hover:text-yellow-200 ' ><Link to='/food-app'><FontAwesomeIcon icon={faYoutube} /></Link></li> */}
+                            {/* <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><Link to='/'><FontAwesomeIcon icon={faFacebook} /></Link></li>
+                            <li className='text-2xl ml-6 text-white hover:text-yellow-200' ><Link to='/'><FontAwesomeIcon icon={faInstagram} /></Link></li>
+                            <li className='text-2xl ml-6 mr-6 text-white hover:text-yellow-200 ' ><Link to='/'><FontAwesomeIcon icon={faYoutube} /></Link></li> */}
 
                             <li className='active flex '>
                                 <ul className='flex'>
@@ -206,9 +206,9 @@ function Nav() {
                 <div className='max-w-[1200px] my-0 mx-auto md:flex justify-between hidden lg:hidden'>
                     <ul className='h-14  hover:cursor-pointer relative items-center justify-between flex'>
                         <li>
-                            <Link to='/food-app'> <img src={logo} className="h-9 ml-[40px] " /></Link>
+                            <Link to='/'> <img src={logo} className="h-9 ml-[40px] " /></Link>
                         </li>
-                        <li ><Link to='/food-app'
+                        <li ><Link to='/'
 
                             className='mr-6 ml-10 text-white hover:text-yellow-200 tabNav' >HOME</Link></li>
                         <li className='relative nav'>
@@ -301,7 +301,7 @@ function Nav() {
 
                             </FaBars>
                             <ul className='absolute bg-primary top-[35px] listHome rounded-r-[10px] py-2 hidden '>
-                                <li className='py-2' ><Link to='/food-app'
+                                <li className='py-2' ><Link to='/'
 
                                     className='mr-6 p-2 text-black  hover:text-yellow-200 tabNav ' >HOME</Link></li>
                                 <li className='relative nav py-2'>
