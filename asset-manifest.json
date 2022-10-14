@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/food-app/static/css/main.c2d3f479.css",
-    "main.js": "/food-app/static/js/main.e8bc790e.js",
+    "main.css": "/food-app/static/css/main.cc378e51.css",
+    "main.js": "/food-app/static/js/main.e3ba8b8a.js",
     "static/js/787.5dc0e2a0.chunk.js": "/food-app/static/js/787.5dc0e2a0.chunk.js",
     "static/media/hero_pizza.png": "/food-app/static/media/hero_pizza.4de1c66aeff1a0ed6527.png",
     "static/media/best_pizza_2.png": "/food-app/static/media/best_pizza_2.7b4b46f73b65096254c8.png",
@@ -32,12 +32,12 @@
     "static/media/hero_shape_4.png": "/food-app/static/media/hero_shape_4.022935e2fb8ae2a957bf.png",
     "static/media/emptyCart.svg": "/food-app/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
     "index.html": "/food-app/index.html",
-    "main.c2d3f479.css.map": "/food-app/static/css/main.c2d3f479.css.map",
-    "main.e8bc790e.js.map": "/food-app/static/js/main.e8bc790e.js.map",
+    "main.cc378e51.css.map": "/food-app/static/css/main.cc378e51.css.map",
+    "main.e3ba8b8a.js.map": "/food-app/static/js/main.e3ba8b8a.js.map",
     "787.5dc0e2a0.chunk.js.map": "/food-app/static/js/787.5dc0e2a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2d3f479.css",
-    "static/js/main.e8bc790e.js"
+    "static/css/main.cc378e51.css",
+    "static/js/main.e3ba8b8a.js"
   ]
 }
