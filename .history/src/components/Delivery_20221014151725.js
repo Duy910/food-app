@@ -26,7 +26,7 @@ function Delivery() {
                 <div className='phone:col-span-2 tablet:col-span-1'>
                     <div className='content '>
                         <div >
-                            <h1 className='font-delius text-primary tablet:text-[30px] phone:text-[30px] mt-20 '>FREE DELIVERY</h1>
+                            <h1 className='font-delius text-primary tablet:text-[30px] phone:text-[2px] mt-20 '>FREE DELIVERY</h1>
                         </div>
                         <div>
                             <h1 className='font-rubik font-semibold md:text-[50px] phone:text-[20px] leading-none my-6'>Delivered On Right Time And Place</h1>

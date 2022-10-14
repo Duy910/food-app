@@ -335,7 +335,7 @@ function Nav() {
                     </ul>
                     <ul className='h-14  hover:cursor-pointer relative items-center justify-between flex'>
 
-                        <li className='relative text-xl text-white   hover:text-yellow-200 mr-[20px]'>
+                        <li className='relative text-xl text-white ml-2  hover:text-yellow-200 mr-[20px]'>
                             <div href='/food-app' className='iconProduct' >
 
                                 <FontAwesomeIcon icon={faBasketShopping} className='relative  '>

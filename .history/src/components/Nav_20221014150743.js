@@ -286,38 +286,38 @@ function Nav() {
                             ) : null}
                         </li>
                     </ul>
-
+                    
                 </div>
-
+                
                 {/* {mobile}------------------------------------------------------------------- */}
                 <div className='max-w-[1200px] my-0 mx-auto  justify-between tablet:hidden hidden phone:flex '>
 
-                    <ul className='h-14  hover:cursor-pointer relative items-center justify-between flex'>
-
+                    <ul className='h-14  hover:cursor-pointer relative items-center  '>
+                        
                         <li className='relative iconListHome'>
-
+                            
                             <FaBars className='text-white ml-2 '>
-
-
+                                
+                               
                             </FaBars>
                             <ul className='absolute bg-primary top-[35px] listHome rounded-r-[10px] py-2 hidden '>
-                                <li className='py-2' ><Link to='/food-app'
+                                    <li className='py-2' ><Link to='/food-app'
 
-                                    className='mr-6 p-2 text-black  hover:text-yellow-200 tabNav ' >HOME</Link></li>
-                                <li className='relative nav py-2'>
-                                    <Link to='/menu'
+                                        className='mr-6 p-2 text-black  hover:text-yellow-200 tabNav ' >HOME</Link></li>
+                                    <li  className='relative nav py-2'>
+                                        <Link to='/menu'
 
-                                        className='mr-6 p-2  text-black  hover:text-yellow-200 tabNav' >MENU</Link></li>
+                                            className='mr-6 p-2  text-black  hover:text-yellow-200 tabNav' >MENU</Link></li>
 
 
-                                <li className='py-2'><Link to='/cart '
+                                    <li className='py-2'><Link to='/cart '
 
-                                    className='mr-6 p-2   text-black  hover:text-yellow-200' >CART</Link></li>
-                            </ul>
+                                        className='mr-6 p-2   text-black  hover:text-yellow-200' >CART</Link></li>
+                                </ul>
                         </li>
-
+                     
                     </ul>
-                    <ul className='h-14  hover:cursor-pointer relative items-center  flex'>
+                    <ul className='h-14  hover:cursor-pointer relative items-center justify-between flex'>
                         <li className='relative imageUser    '><img
                             src={user && user ? user.photoURL : Avatar}
                             className='w-8  rounded-full  '
@@ -332,10 +332,7 @@ function Nav() {
                                     /></li>
                             </ul>
                         </li>
-                    </ul>
-                    <ul className='h-14  hover:cursor-pointer relative items-center justify-between flex'>
-
-                        <li className='relative text-xl text-white   hover:text-yellow-200 mr-[20px]'>
+                        <li className='relative text-xl text-white ml-32  hover:text-yellow-200 mr-[20px]'>
                             <div href='/food-app' className='iconProduct' >
 
                                 <FontAwesomeIcon icon={faBasketShopping} className='relative  '>

@@ -20,13 +20,13 @@ function Delivery() {
             <img src={shape15} className='absolute top-[82%] right-[20%]'/>
             <img src={shape16} className='absolute phone:hidden des:block right-[6%] top-[40%]'/>
             <div className='max-w-[1200px] my-0 mx-auto h-full grid grid-cols-2 '>
-                <div className='tablet:col-span-1 phone:col-span-2 mr-10 relative phone:hidden des:block'>
+                <div className='tablet:col-span-1 phone:col-span-2 mr-10 relative phone:hidden'>
                     <img src={biker} className='z-20 absolute top-[18%] left-0'/>
                 </div>
                 <div className='phone:col-span-2 tablet:col-span-1'>
                     <div className='content '>
                         <div >
-                            <h1 className='font-delius text-primary tablet:text-[30px] phone:text-[30px] mt-20 '>FREE DELIVERY</h1>
+                            <h1 className='font-delius text-primary tablet:text-[30px] phone:text-[2px] mt-20 '>FREE DELIVERY</h1>
                         </div>
                         <div>
                             <h1 className='font-rubik font-semibold md:text-[50px] phone:text-[20px] leading-none my-6'>Delivered On Right Time And Place</h1>
