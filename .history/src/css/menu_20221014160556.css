@@ -1,16 +1,15 @@
 .menu:hover .menuA {
-    /* animation: cart ease-in-out 0.5s; */
+    animation: cart ease-in-out 0.3s;
     display: block;
-   
     
 }
 
-/* @keyframes cart {
+@keyframes cart {
     from{
-        top: -20px;
+        top: 0;
     }
     to {
         top: 1;
     }
     
-} */
+}

@@ -11,7 +11,7 @@ import Context from '../store/Context';
 
 
 function Menu() {
-
+    
 
     return (
         <div className="max-w-[1200px] my-0 mx-auto">
@@ -23,19 +23,15 @@ function Menu() {
             <div>
                 <div className='grid grid-cols-4 gap-4'>
                     {bestData.map((product, index) => {
-                        return <div key={index} className='des:col-span-1 tablet:col-span-2 phone:col-span-4'>
+                        return <div key={index} className='des:col-span-1 tablet:col-span-2 phone:col-span-4 absolute translate-x-1/4 hidden menuA'>
                             <div className='text-center font-semibold p-10 border-2 rounded-[10px] hover:cursor-pointer hover:bg-[#fffbf1] hover:shadow-2xl mb-20 relative menu'>
                                 <div>
                                     <img src={product.imgSrc} className='mx-auto w-[200px] h-[200px] ' />
                                 </div>
-
-                                <div className='flex justify-center'>
-                                    <div className='absolute mt-8 menuA hidden  '>
-                                        <Link to='/menu' className=' py-3 px-5 bg-primary  rounded-[10px] text-[20px] text-white hover:text-black '>
-                                            Go to Menu
-                                        </Link>
-
-                                    </div>
+                                <div className=' '>
+                                    <Link to='/menu' className=' py-3 px-5 bg-primary  rounded-[10px] text-[20px] text-white hover:text-black '>
+                                        Go to Menu
+                                    </Link>
                                 </div>
                                 <div className=''>
                                     <h1 className='font-dirt text-[30px] text-primary mt-20 leading-8'>{product.name}</h1>

@@ -28,13 +28,11 @@ function Menu() {
                                 <div>
                                     <img src={product.imgSrc} className='mx-auto w-[200px] h-[200px] ' />
                                 </div>
-
-                                <div className='flex justify-center'>
-                                    <div className='absolute mt-8 menuA hidden  '>
+                                <div className='flex justify-center menuA '>
+                                    <div className='absolute mt-8 '>
                                         <Link to='/menu' className=' py-3 px-5 bg-primary  rounded-[10px] text-[20px] text-white hover:text-black '>
                                             Go to Menu
                                         </Link>
-
                                     </div>
                                 </div>
                                 <div className=''>

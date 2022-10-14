@@ -11,7 +11,7 @@ import Context from '../store/Context';
 
 
 function Menu() {
-
+    
 
     return (
         <div className="max-w-[1200px] my-0 mx-auto">
@@ -28,14 +28,10 @@ function Menu() {
                                 <div>
                                     <img src={product.imgSrc} className='mx-auto w-[200px] h-[200px] ' />
                                 </div>
-
-                                <div className='flex justify-center'>
-                                    <div className='absolute mt-8 menuA hidden  '>
-                                        <Link to='/menu' className=' py-3 px-5 bg-primary  rounded-[10px] text-[20px] text-white hover:text-black '>
-                                            Go to Menu
-                                        </Link>
-
-                                    </div>
+                                <div className='mt-10 menuA absolute hidden  '>
+                                    <Link to='/menu' className=' py-3 px-5 bg-primary  rounded-[10px] text-[20px] text-white hover:text-black '>
+                                        Go to Menu
+                                    </Link>
                                 </div>
                                 <div className=''>
                                     <h1 className='font-dirt text-[30px] text-primary mt-20 leading-8'>{product.name}</h1>

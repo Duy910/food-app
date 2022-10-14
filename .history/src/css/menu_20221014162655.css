@@ -1,0 +1,16 @@
+.menu:hover .menuA {
+    animation: cart ease-in-out 0.3s;
+    display: block;
+    transition: ease-in-out 0.2s;
+    
+}
+
+/* @keyframes cart {
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(25%);
+    }
+    
+} */
