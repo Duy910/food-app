@@ -244,7 +244,7 @@ function Nav() {
                                 <FontAwesomeIcon icon={faBasketShopping} className='relative  '>
 
                                 </FontAwesomeIcon>
-                                <div className='w-[400px]  z-20  absolute top-[149%] right-[0] listProduct hidden bg-white   '>
+                                <div className='w-[400px]  z-20  absolute top-[149%] right-[0] listProduct  bg-white   '>
                                         {cartItems && cartItems.length > 0 ? (<div>
                                             {/* <div className='flex justify-between items-center py-2'>
                                                 <img className=' h-[50px] ' src={delivery} />

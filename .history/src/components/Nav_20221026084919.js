@@ -244,44 +244,40 @@ function Nav() {
                                 <FontAwesomeIcon icon={faBasketShopping} className='relative  '>
 
                                 </FontAwesomeIcon>
-                                <div className='w-[400px]  z-20  absolute top-[149%] right-[0] listProduct hidden bg-white   '>
-                                        {cartItems && cartItems.length > 0 ? (<div>
-                                            {/* <div className='flex justify-between items-center py-2'>
-                                                <img className=' h-[50px] ' src={delivery} />
-                                                <img className=' h-[40px] ' src={loginIcon} />
-                                                <img className=' h-[50px] ' src={phone} />
-                                            </div> */}
-                                            <ul className='h-[540px] overflow-y-scroll listProductUl rounded-[10px] '>
-                                                {cartItems && cartItems.map((cartitem) => {
-                                                    return <CartItems
-                                                        cartitem={cartitem}
-                                                        setFlag={setFlag}
-                                                        flag={flag}
-                                                        key={cartitem.id}
-                                                    />
-                                                })}
+                                <div className='w-[400px]  z-20  absolute top-[149%] right-[0] listProduct   bg-white   '>
+                                    {cartItems && cartItems.length > 0 ? (<div>
+                                        {/* <div className='flex justify-between items-center py-2'>
+                                            <img className=' h-[50px] ' src={delivery} />
+                                            <img className=' h-[40px] ' src={loginIcon} />
+                                            <img className=' h-[50px] ' src={phone} />
+                                        </div> */}
+                                        <ul className='h-[480px] overflow-y-scroll listProductUl rounded-[10px] '>
+                                            {cartItems && cartItems.map((cartitem) => {
+                                                return <CartItems
+                                                    cartitem={cartitem}
+                                                    setFlag={setFlag}
+                                                    flag={flag}
+                                                    key={cartitem.id}
+                                                />
+                                            })}
+                                        </ul>
 
-
-
-
-                                            </ul>
-
-                                            <div className=' bg-[#fff8ef]  h-[60px] mt-[20px] rounded-t-[20px] flex items-center justify-around'>
-                                                <div className='flex font-delius italic font-bold items-center '>
-                                                    <h1 className='text-primary  text-[20px]  '>Sub-total:
-                                                    </h1>
-                                                    <h1 className=' text-black text-[18px] ml-2'> <FontAwesomeIcon icon={faEuroSign} />{total}</h1>
-                                                </div>
-                                                <div>
-                                                    <Link to='/cart' className='text-black text-[18px] font-bold items-center italic bg-primary p-2 rounded-[10px] listProductCheckOut'
-                                                    >Check out</Link>
-                                                </div>
+                                        <div className=' bg-[#fff8ef]  h-[100px] mt-[3%] rounded-t-[20px] flex items-center justify-around'>
+                                            <div className='flex font-delius italic font-bold items-center '>
+                                                <h1 className='text-primary  text-[20px]  '>Sub-total:
+                                                </h1>
+                                                <h1 className=' text-black text-[18px] ml-2'> <FontAwesomeIcon icon={faEuroSign} />{total}</h1>
                                             </div>
-                                        </div>) : (<div className='w-[100%] h-[100%] flex items-center justify-center'>
-                                            <h1 className='text-[20px] font-delius font-bold text-primary'>There's nothing here.</h1>
-                                        </div>)}
+                                            <div>
+                                                <Link to='/cart' className='text-black text-[18px] font-bold items-center italic bg-primary p-2 rounded-[10px] listProductCheckOut'
+                                                >Check out</Link>
+                                            </div>
+                                        </div>
+                                    </div>) : (<div className='w-[100%] h-[100%] flex items-center justify-center'>
+                                        <h1 className='text-[20px] font-delius font-bold text-primary'>There's nothing here.</h1>
+                                    </div>)}
 
-                                    </div>
+                                </div>
 
                             </div>
                             {cartItems && cartItems.length > 0 ? (<div className=''>
@@ -345,44 +341,40 @@ function Nav() {
                                 <FontAwesomeIcon icon={faBasketShopping} className='relative  '>
 
                                 </FontAwesomeIcon>
-                                <div className='w-[400px]  z-20  absolute top-[149%] right-[-28px] listProduct hidden  bg-white   '>
-                                        {cartItems && cartItems.length > 0 ? (<div>
-                                            {/* <div className='flex justify-between items-center py-2'>
-                                                <img className=' h-[50px] ' src={delivery} />
-                                                <img className=' h-[40px] ' src={loginIcon} />
-                                                <img className=' h-[50px] ' src={phone} />
-                                            </div> */}
-                                            <ul className='h-[540px] overflow-y-scroll listProductUl rounded-[10px] '>
-                                                {cartItems && cartItems.map((cartitem) => {
-                                                    return <CartItems
-                                                        cartitem={cartitem}
-                                                        setFlag={setFlag}
-                                                        flag={flag}
-                                                        key={cartitem.id}
-                                                    />
-                                                })}
+                                <div className='w-[400px]  z-20  absolute top-[149%] right-[-24px] listProduct   bg-white   '>
+                                    {cartItems && cartItems.length > 0 ? (<div>
+                                        <div className='flex justify-between items-center py-2'>
+                                            <img className=' h-[50px] ' src={delivery} />
+                                            <img className=' h-[40px] ' src={loginIcon} />
+                                            <img className=' h-[50px] ' src={phone} />
+                                        </div>
+                                        <ul className='h-[440px] overflow-y-scroll listProductUl rounded-[10px] '>
+                                            {cartItems && cartItems.map((cartitem) => {
+                                                return <CartItems
+                                                    cartitem={cartitem}
+                                                    setFlag={setFlag}
+                                                    flag={flag}
+                                                    key={cartitem.id}
+                                                />
+                                            })}
+                                        </ul>
 
-
-
-
-                                            </ul>
-
-                                            <div className=' bg-[#fff8ef]  h-[60px] mt-[20px] rounded-t-[20px] flex items-center justify-around'>
-                                                <div className='flex font-delius italic font-bold items-center '>
-                                                    <h1 className='text-primary  text-[20px]  '>Sub-total:
-                                                    </h1>
-                                                    <h1 className=' text-black text-[18px] ml-2'> <FontAwesomeIcon icon={faEuroSign} />{total}</h1>
-                                                </div>
-                                                <div>
-                                                    <Link to='/cart' className='text-black text-[18px] font-bold items-center italic bg-primary p-2 rounded-[10px] listProductCheckOut'
-                                                    >Check out</Link>
-                                                </div>
+                                        <div className=' bg-[#fff8ef]  h-[100px] mt-[3%] rounded-t-[20px] flex items-center justify-around'>
+                                            <div className='flex font-delius italic font-bold items-center '>
+                                                <h1 className='text-primary  text-[20px]  '>Sub-total:
+                                                </h1>
+                                                <h1 className=' text-black text-[18px] ml-2'> <FontAwesomeIcon icon={faEuroSign} />{total}</h1>
                                             </div>
-                                        </div>) : (<div className='w-[100%] h-[100%] flex items-center justify-center'>
-                                            <h1 className='text-[20px] font-delius font-bold text-primary'>There's nothing here.</h1>
-                                        </div>)}
+                                            <div>
+                                                <Link to='/cart' className='text-black text-[18px] font-bold items-center italic bg-primary p-2 rounded-[10px] listProductCheckOut'
+                                                >Check out</Link>
+                                            </div>
+                                        </div>
+                                    </div>) : (<div className='w-[100%] h-[100%] flex items-center justify-center'>
+                                        <h1 className='text-[20px] font-delius font-bold text-primary'>There's nothing here.</h1>
+                                    </div>)}
 
-                                    </div>
+                                </div>
 
                             </div>
                             {cartItems && cartItems.length > 0 ? (<div className=''>
